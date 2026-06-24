@@ -2,16 +2,16 @@
 
 ## Overview
 
-An automated news aggregation and newsletter generation system built using n8n, Google Gemini API, RSS feeds, and Gmail API. The workflow collects news from multiple sources, generates AI-powered summaries, formats them into a newsletter, and automatically delivers them via email.
+An AI-powered workflow automation system that aggregates news from multiple RSS feeds, generates concise summaries using Google Gemini, and automatically delivers formatted newsletters via email. Built using n8n to demonstrate practical LLM integration, workflow automation, and API orchestration.
 
 ## Features
 
-* Automated news collection from RSS feeds
+* Automated news collection from multiple RSS feeds
 * AI-powered summarization using Google Gemini
-* Categorized and concise news summaries
-* Scheduled workflow execution
-* Automated newsletter generation
-* Email delivery through Gmail API
+* Newsletter generation and formatting
+* Automated email delivery using Gmail API
+* Scheduled workflow execution through n8n
+* End-to-end workflow automation
 
 ## Tech Stack
 
@@ -21,52 +21,24 @@ An automated news aggregation and newsletter generation system built using n8n, 
 * RSS Feeds
 * Prompt Engineering
 
-## Workflow Architecture
+## Workflow
 
-RSS Feeds
-↓
-News Collection
-↓
-Content Processing
-↓
-Gemini Summarization
-↓
-Newsletter Formatting
-↓
-Gmail Delivery
+RSS Feeds → News Aggregation → Content Processing → Gemini Summarization → Newsletter Formatting → Gmail Delivery
 
-## Screenshots
+## Project Files
 
-### Workflow Overview
-
-(Add screenshot here)
-
-### Newsletter Output
-
-(Add screenshot here)
-
-## Sample Output
-
-A sample generated newsletter is available in the `sample-output` folder.
-
-## Repository Structure
-
-```text
-workflow.json
-README.md
-screenshots/
-sample-output/
-architecture.png
-```
+* `news-summarizer-workflow.json` — Complete exported n8n workflow
+* `workflow-overview.png` — Workflow visualization
+* `output-mails/` — Generated newsletter output screenshots
 
 ## Key Learnings
 
 * Workflow automation using n8n
-* LLM integration with Gemini API
-* Prompt engineering for summarization
-* API integrations and automation pipelines
-* End-to-end AI application development
+* LLM integration with Google Gemini
+* Prompt engineering for content summarization
+* API integration and orchestration
+* Automated content generation pipelines
 
 ## Author
 
-A Varshitha
+**A Varshitha**
