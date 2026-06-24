@@ -1,0 +1,1 @@
+Newsletter output screenshots.
